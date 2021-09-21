@@ -5,7 +5,7 @@ var outputDiv = document.querySelector("#output");   //Give input from input box
 var serverURL = "https://api.funtranslations.com/translate/shakespeare.json"  //Server link 
 
 //GetTranslation call this for text with server link(4)
-function getTranslationURL(text){
+function A(text){
     return serverURL +"?" +"text=" +text
 }
 
@@ -14,12 +14,12 @@ function errorHandler(error){
     alert("Something wrong with Server! Try Again")
 }
 
-function clickHandler(){      //2
+function B(){      //2
     console.log("Button Clicked");
     var inputText =txtInput.value;
 
 
-fetch(getTranslationURL(inputText)) //call GetTranslation funtion (3)
+fetch(A(inputText)) //call GetTranslation funtion (3)
      .then(response => response.json())  //Get Response back from GetTranslation function and convert text into new language (5)
      .then(json =>{
          var translated;
@@ -28,4 +28,4 @@ fetch(getTranslationURL(inputText)) //call GetTranslation funtion (3)
      })
      .catch(errorHandler)
     }
-btnTranslate.addEventListener("click", clickHandler) //1
+btnTranslate.addEventListener("click", B) //1
