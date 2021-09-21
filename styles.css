@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
 
 body{
+    font-family: 'Grechen Fuemen', cursive;
+}
+:root {
+    --primary-color:#00008b;
     --dark-color: #b9b8b84d;
 .Banana-Talk{
     margin: auto;
