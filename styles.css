@@ -29,44 +29,61 @@ body{
 }
 
 textarea {
-
     display: block;
+    background-color: var(--color);
     width: 100%;
     min-height: 20vh;
     margin-top: 5rem;
+    border-radius:1rem 1rem;
+    padding:1rem 1rem;
     font-size: large;
+
 }
 
 button{
-    background-color:cornflowerblue;
-    padding:0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: var(--off-white);
+    max-width: 100%;
+    display: block;
+    padding:1rem 3rem;
     border-radius: 1rem 1rem;
     margin:2rem auto;
-    font-size:15px;
-
+    text-align: center;
+    margin-left: 2rem;
+    font-family: 'Grechen Fuemen', cursive;
+    font-size:30px;
+    font-weight:bold;
     
 }
 .outer{
+    display: block;
     width: 100%;
-    background-color:cornflowerblue;
-    margin:auto;
+    background-color: var(--primary-color);
+    color: var(--off-white);
+    margin:0rem 1rem;
     padding: 0.2rem 0.2rem;
     font-size:x-large;
-    text-align:center
+    text-align:center;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
 }
 
 #output{
     display: block;
+    background-color: var(--color);
+    color:var(--off-white);
     width: 100%;
     min-height: 20vh;
-    font-size: large;
+    border-radius:1rem 1rem;
+    padding:1rem 1rem;
     border-style:ridge;
     margin:auto;
     margin-bottom: 10rem;
 }
 .footer {
-    text-align: center;
-    background-color:cornflowerblue;
+    background-color: var(--primary-color);
+    color: var(--off-white);
     position: fixed;
     left: 0;
     bottom: 0;
@@ -74,6 +91,14 @@ button{
 }
 .footer-About{
     text-align: center;
+    padding:1rem;
     font-weight: bold;
     font-size: x-large;
+}
+.footer .text{
+    padding-bottom:1rem;
+    margin:auto;
+    display: block;
+    text-align:center;
+    max-width: 1000px;
 }
