@@ -63,6 +63,7 @@ button{
     width: 100%;
 }
 .footer-About{
+    text-align: center;
     font-weight: bold;
     font-size: x-large;
 }
