@@ -18,7 +18,8 @@ body{
     position: fixed;
     left: 0;
     top: 0;
-    width: 100%
+    width: 100%;
+    font-size: 250%;
 }
 .INPO {
     max-width: 600px;
