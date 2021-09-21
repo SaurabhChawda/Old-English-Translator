@@ -11,7 +11,8 @@ body{
  }
 .Banana-Talk{
     margin: auto;
-    background-color: cornflowerblue;
+    background-color: var(--primary-color);
+    color:var(--off-white);
     text-align: center;
     padding: 1rem;
     position: fixed;
