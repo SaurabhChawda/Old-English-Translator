@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Grechen Fuemen', cursive;
+
 }
 :root {
     --primary-color:#00008b;
@@ -9,96 +10,80 @@ body{
     --off-white: #ffffff;
     --color:#e9e9e9e1;
  }
-.Banana-Talk{
+
+ .Banana-Talk{
     margin: auto;
-    background-color: var(--primary-color);
-    color:var(--off-white);
+    background-color:var(--primary-color);
+    color: var(--off-white);
+    position:fixed;
     text-align: center;
     padding: 1rem;
-    position: fixed;
     left: 0;
     top: 0;
-    width: 100%;
-    font-size: 180%;
+    width: 100%
 }
 .INPO {
-    max-width: 500px;
-    margin:0rem auto;
-    padding: 1rem 1rem;
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem;
     
 }
 
 textarea {
-    position:static;
     display: block;
-    background-color: var(--color);
     width: 100%;
     min-height: 20vh;
     margin-top: 5rem;
-    border-radius:1rem 1rem;
-    padding:1rem 1rem;
+    background-color: var(--color);
+    border-radius: 1rem;
     font-size: large;
-
 }
 
 button{
-    background-color: var(--primary-color);
+    background-color:var(--primary-color);
     color: var(--off-white);
-    max-width: 100%;
-    display: block;
-    padding:1rem 3rem;
+    width:100%;
+    padding:1rem 1rem;
     border-radius: 1rem 1rem;
-    margin:2rem auto;
-    text-align: center;
-    margin-left: 2rem;
+    margin:1.5rem auto;
+    font-size:20px;
     font-family: 'Grechen Fuemen', cursive;
-    font-size:30px;
-    font-weight:bold;
+
     
 }
 .outer{
-    display: block;
     width: 100%;
-    background-color: var(--primary-color);
-    color: var(--off-white);
-    margin:0rem 1rem;
+    background-color:var(--primary-color);
+    color:var(--off-white);
     padding: 0.2rem 0.2rem;
     font-size:x-large;
     text-align:center;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-
 }
 
 #output{
     display: block;
-    background-color: var(--color);
     width: 100%;
     min-height: 20vh;
-    border-radius:1rem 1rem;
-    padding:1rem 1rem;
+    font-size: large;
     border-style:ridge;
+    background-color: var(--color);
     margin:auto;
     margin-bottom: 10rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 .footer {
+    text-align: center;
     background-color: var(--primary-color);
-    color: var(--off-white);
-    position:static;
+    color:var(--off-white) ;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
 }
 .footer-About{
-    text-align: center;
-    padding:1rem;
     font-weight: bold;
     font-size: x-large;
-}
-.footer .text{
-    padding-bottom:1rem;
-    margin:auto;
-    display: block;
-    text-align:center;
-    max-width: 1000px;
 }
