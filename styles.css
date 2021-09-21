@@ -19,16 +19,17 @@ body{
     left: 0;
     top: 0;
     width: 100%;
-    font-size: 250%;
+    font-size: 200%;
 }
 .INPO {
-    max-width: 600px;
-    margin: auto;
-    padding: 1rem;
+    max-width: 500px;
+    margin:0rem auto;
+    padding: 1rem 1rem;
     
 }
 
 textarea {
+    position:static;
     display: block;
     background-color: var(--color);
     width: 100%;
@@ -72,7 +73,6 @@ button{
 #output{
     display: block;
     background-color: var(--color);
-    color:var(--off-white);
     width: 100%;
     min-height: 20vh;
     border-radius:1rem 1rem;
@@ -84,7 +84,7 @@ button{
 .footer {
     background-color: var(--primary-color);
     color: var(--off-white);
-    position: fixed;
+    position:static;
     left: 0;
     bottom: 0;
     width: 100%;
