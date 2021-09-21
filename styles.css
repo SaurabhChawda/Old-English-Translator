@@ -1,0 +1,67 @@
+
+.Banana-Talk{
+    margin: auto;
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 1rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%
+}
+.INPO {
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem;
+    
+}
+
+textarea {
+
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 5rem;
+    font-size: large;
+}
+
+button{
+    background-color:cornflowerblue;
+    padding:0.5rem 1rem;
+    border-radius: 1rem 1rem;
+    margin:2rem auto;
+    font-size:15px;
+
+    
+}
+.outer{
+    width: 100%;
+    background-color:cornflowerblue;
+    margin:auto;
+    padding: 0.2rem 0.2rem;
+    font-size:x-large;
+    text-align:center
+}
+
+#output{
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    font-size: large;
+    border-style:ridge;
+    margin:auto;
+    margin-bottom: 10rem;
+}
+.footer {
+    text-align: center;
+    background-color:cornflowerblue;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.footer-About{
+    font-weight: bold;
+    font-size: x-large;
+}
