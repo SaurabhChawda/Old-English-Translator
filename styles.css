@@ -1,4 +1,6 @@
 
+body{
+    --dark-color: #b9b8b84d;
 .Banana-Talk{
     margin: auto;
     background-color: cornflowerblue;
